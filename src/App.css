@@ -1,0 +1,94 @@
+.product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.product-details {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.product-image img {
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+.product-info-text {
+  flex: 1;
+}
+
+.product-info-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-info-text .author {
+  font-size: 16px;
+  color: #555;
+}
+
+.product-info-text .price {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.product-info-text .current-price {
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+.product-info-text .original-price {
+  text-decoration: line-through;
+  color: #aaa;
+  margin-left: 10px;
+}
+
+.product-info-text .description {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.similar-books {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.similar-books h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.book-list {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+}
+
+.book-item {
+  flex: 0 0 auto;
+  width: 180px;
+  text-align: center;
+}
+
+.book-item img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.book-item h4 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.book-item p {
+  font-size: 14px;
+  color: #555;
+}
